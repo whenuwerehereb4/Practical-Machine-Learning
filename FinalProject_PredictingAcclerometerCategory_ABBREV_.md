@@ -113,7 +113,7 @@ registerDoSEQ()
 
 As expected, the overall model fit once again had accuracy and Kappa values well above 0.99 based on the training data.
 
-An interesting side note is tha the model built using the samller "training" data set (80% of the data used in generating the "default" model), found an optimal value of 27. This represents a large jump from the mtry value of 2 noted earlier. However, considering that the optimal mtry value changed significantly between the 2 data sets and that the number of predictors per tree appears to be fairly un-important overall (accuracy stays between 0.993 and 0.994 when the total number of predictors per tree is between 2 and 27 and the value stays above 0.99 for mtry values as high as 52), any mtry value between 2 and 27 is probably acceptable.
+An interesting side note is that the model built using the samller "training" data set (80% of the data used in generating the "default" model), found an optimal mtry value of 27. This represents a large jump from the mtry value of 2 noted earlier. However, considering that the optimal mtry value changed significantly between the 2 data sets and that the mtry value appears to be fairly un-important overall (accuracy stays between 0.993 and 0.994 when the total number of predictors per tree is between 2 and 27 and the value stays above 0.99 for mtry values as high as 52), any mtry value between 2 and 27 is probably acceptable.
 
 Evaluating Cross Validation and Out-of-Sample Error
 ===================================================
